@@ -18,11 +18,942 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 382.5,
+              "y": 160
+            },
+            "size": {
+              "width": 320,
+              "height": 340
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "6ef397c4-3ced-40e1-b8ae-f9dc2cb6ba9e",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "6d7ab9eb-833b-4421-86c8-c4fe894ea7d8",
+                "8e46ee2c-a146-4c43-9884-04619ff72b18",
+                "5998db79-94e4-4f37-8351-10857ed19fba"
+              ],
+              "containedElements": [
+                "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+                "eb1c6c27-998d-48c6-9655-98ae2cabd6e0"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 486.25,
+              "y": -10
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Cliente"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2a68a21-a479-488d-bf51-3a8f99f406db"
+                },
+                {
+                  "group": "right",
+                  "id": "96034816-818d-4015-a79f-2c9eaa1de13e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5893cfc9-2651-458f-8a0c-d1ae3ef51020"
+                },
+                {
+                  "group": "left",
+                  "id": "1581e367-a1a7-4020-9660-85ecdaf84730"
+                }
+              ]
+            },
+            "id": "6d874fa8-0ec2-4811-9162-3f13efc2f447",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Cliente",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 487.5,
+              "y": 193
+            },
+            "size": {
+              "width": 110,
+              "height": 110
+            },
+            "attrs": {
+              "text": {
+                "text": "Servidor / API"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2f0629c-8b37-4af5-85d8-1bc2f4aad6f8"
+                },
+                {
+                  "group": "right",
+                  "id": "194250a4-8666-4f30-8b24-047efad32b86"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03ab2a5c-92e0-4df9-b688-2f5bca27d01e"
+                },
+                {
+                  "group": "left",
+                  "id": "482a1995-9c01-4880-8f5c-69185a572cd9"
+                }
+              ]
+            },
+            "id": "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Servidor / API",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "59d8fc91-28d6-4e71-b8e7-813ab45ac947",
+                  "title": "S-01 - Suplantación de identidad mediante robo de credenciales",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Un atacante podría obtener las credenciales de un usuario y utilizarlas para hacerse pasar por él, obteniendo acceso no autorizado a su cuenta, información personal y pedidos.",
+                  "mitigation": "Implementar autenticación multifactor (MFA), exigir contraseñas robustas, limitar los intentos de inicio de sesión, implementar protección contra ataques de fuerza bruta y utilizar una gestión segura de sesiones.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "7a87ed5c-a1f2-410d-ba6e-407aa331db79",
+                  "title": "R-01 - Repudio de una compra",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Un usuario podría negar haber realizado una compra si el sistema no cuenta con registros suficientes que permitan demostrar quién realizó la operación, cuándo se realizó y qué productos fueron adquiridos.",
+                  "mitigation": "Implementar registros de auditoría (logs) para las operaciones de compra, asociando cada transacción con un identificador único, usuario, fecha y hora. Los registros deben protegerse contra modificaciones no autorizadas y conservarse durante un período definido.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "9921fa4d-c5f8-4a81-8205-44e4a345f17f",
+                  "title": "I-01 - Exposición de información personal",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "La aplicación podría exponer información personal de los usuarios, como nombre, correo electrónico, dirección, teléfono o datos de la cuenta, a personas que no tienen autorización para acceder a ella. Un atacante podría intentar modificar parámetros o URL para consultar información perteneciente a otros usuarios.",
+                  "mitigation": "Implementar controles de autorización en el servidor para verificar que cada usuario solamente pueda acceder a los recursos que le corresponden. No confiar en identificadores enviados mediante la URL. Aplicar el principio de mínimo privilegio, evitar exponer información personal innecesaria y redireccionar o rechazar las solicitudes no autorizadas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "f6e843d7-c6d8-418c-abe5-d62826b742e5",
+                  "title": "D-01 - Denegación de servicio por exceso de peticiones",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Un atacante podría enviar un número excesivo de solicitudes al servidor o a determinados servicios de la aplicación, consumiendo recursos como CPU, memoria o conexiones y provocando lentitud o indisponibilidad para los usuarios legítimos.",
+                  "mitigation": "Implementar rate limiting para limitar el número de solicitudes por usuario o dirección IP, bloqueo temporal ante patrones de abuso, CAPTCHA en operaciones sensibles y mecanismos de monitoreo y detección de tráfico anómalo.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "65d6007e-55b5-41dc-9653-963e96fe9bfe",
+                  "title": "E-01 - Elevación no autorizada de privilegios",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Elevation of privilege",
+                  "description": "Un usuario con privilegios normales podría intentar acceder a funciones administrativas o modificar parámetros de las solicitudes para obtener permisos de administrador. Esto podría permitirle modificar productos, precios, pedidos o información de otros usuarios.",
+                  "mitigation": "Implementar un sistema de control de acceso basado en roles (RBAC), verificando los permisos de cada usuario en el servidor antes de ejecutar operaciones administrativas. No confiar únicamente en restricciones implementadas en el cliente. Aplicar el principio de mínimo privilegio, validar los permisos en cada solicitud y registrar las operaciones administrativas.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 482.5,
+              "y": 420
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Base De Datos"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "abdde504-4e7e-4c03-8570-957f50063a96"
+                },
+                {
+                  "group": "right",
+                  "id": "78619b5d-80e8-4762-9cc5-92fec2a49a1c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a17c0232-3e20-4291-9bcb-08ef3cb7f74d"
+                },
+                {
+                  "group": "left",
+                  "id": "419e700c-c31b-4daf-af3e-39401a6550cf"
+                }
+              ]
+            },
+            "id": "eb1c6c27-998d-48c6-9655-98ae2cabd6e0",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Store",
+              "name": "Base De Datos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Solicitudes del cliente",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "d178ef62-5410-4621-890d-f1db915654d5",
+                  "title": "T-01 - Manipulación del precio de productos",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un atacante podría modificar los parámetros enviados desde el cliente para alterar el precio de un producto antes de realizar la compra, pagando un valor inferior al establecido por la aplicación.",
+                  "mitigation": "El servidor debe validar y calcular el precio de los productos utilizando información almacenada en la base de datos, sin confiar en el precio enviado por el cliente. Se deben implementar controles de integridad, validación de parámetros y autorización en las operaciones relacionadas con productos y pedidos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "6ef397c4-3ced-40e1-b8ae-f9dc2cb6ba9e"
+              ],
+              "threatFrequency": {
+                "tampering": 2,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Solicitudes del cliente"
+            ],
+            "id": "6d7ab9eb-833b-4421-86c8-c4fe894ea7d8",
+            "source": {
+              "cell": "6d874fa8-0ec2-4811-9162-3f13efc2f447",
+              "port": "5893cfc9-2651-458f-8a0c-d1ae3ef51020"
+            },
+            "target": {
+              "cell": "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+              "port": "f2f0629c-8b37-4af5-85d8-1bc2f4aad6f8"
+            },
+            "vertices": [
+              {
+                "x": 522.25,
+                "y": 100
+              },
+              {
+                "x": 522.25,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consultas y datos de usuarios/pedidos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Consultas y datos de usuarios/pedidos"
+            ],
+            "id": "db97f650-ae5a-47ed-bff4-5b30719d2ec4",
+            "source": {
+              "cell": "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+              "port": "03ab2a5c-92e0-4df9-b688-2f5bca27d01e"
+            },
+            "target": {
+              "cell": "eb1c6c27-998d-48c6-9655-98ae2cabd6e0",
+              "port": "abdde504-4e7e-4c03-8570-957f50063a96"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Información de pago",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "6ef397c4-3ced-40e1-b8ae-f9dc2cb6ba9e"
+              ]
+            },
+            "labels": [
+              "Información de pago"
+            ],
+            "id": "8e46ee2c-a146-4c43-9884-04619ff72b18",
+            "source": {
+              "cell": "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+              "port": "194250a4-8666-4f30-8b24-047efad32b86"
+            },
+            "target": {
+              "cell": "a3ff2782-38f4-42fa-b7d3-c8a97721a8ef",
+              "port": "482a1995-9c01-4880-8f5c-69185a572cd9"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Gestión administrativa",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "6ef397c4-3ced-40e1-b8ae-f9dc2cb6ba9e"
+              ]
+            },
+            "labels": [
+              "Gestión administrativa"
+            ],
+            "id": "5998db79-94e4-4f37-8351-10857ed19fba",
+            "source": {
+              "cell": "c4877d6c-85b3-4d1a-9a3b-dfa65844800f",
+              "port": "96034816-818d-4015-a79f-2c9eaa1de13e"
+            },
+            "target": {
+              "cell": "3b6004e7-ac13-4389-b5e0-66cb7abdeeb5",
+              "port": "482a1995-9c01-4880-8f5c-69185a572cd9"
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": 840,
+              "y": 188
+            },
+            "size": {
+              "width": 130,
+              "height": 120
+            },
+            "attrs": {
+              "text": {
+                "text": "Servicio de Pagos"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2f0629c-8b37-4af5-85d8-1bc2f4aad6f8"
+                },
+                {
+                  "group": "right",
+                  "id": "194250a4-8666-4f30-8b24-047efad32b86"
+                },
+                {
+                  "group": "bottom",
+                  "id": "03ab2a5c-92e0-4df9-b688-2f5bca27d01e"
+                },
+                {
+                  "group": "left",
+                  "id": "482a1995-9c01-4880-8f5c-69185a572cd9"
+                }
+              ]
+            },
+            "id": "a3ff2782-38f4-42fa-b7d3-c8a97721a8ef",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Servicio de Pagos",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -10,
+              "y": 223
+            },
+            "size": {
+              "width": 110,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Administrador\n"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f2a68a21-a479-488d-bf51-3a8f99f406db"
+                },
+                {
+                  "group": "right",
+                  "id": "96034816-818d-4015-a79f-2c9eaa1de13e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5893cfc9-2651-458f-8a0c-d1ae3ef51020"
+                },
+                {
+                  "group": "left",
+                  "id": "1581e367-a1a7-4020-9660-85ecdaf84730"
+                }
+              ]
+            },
+            "id": "c4877d6c-85b3-4d1a-9a3b-dfa65844800f",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Administrador\n",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 6
   }
 }
